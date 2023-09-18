@@ -15,7 +15,7 @@ name VARCHAR(100),
 -- create an "artist_id" column that's an integer
 artist_id INT,
 -- create a "release_year" column that's an integer
-release_year INT
+release_year INT,
 
   FOREIGN KEY (artist_id)
     REFERENCES artists (id)
@@ -31,7 +31,7 @@ track_number INT,
 -- create an "artist_id" column that's an integer
 artist_id INT,
 -- create an "album_id" column that's an integer
-album_id INT
+album_id INT,
 
   FOREIGN KEY (artist_id)
     REFERENCES artists (id)

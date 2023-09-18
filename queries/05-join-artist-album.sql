@@ -7,5 +7,5 @@ SELECT artists.name AS artist_name,
     albums.name AS album_name, 
     albums.release_year
 FROM artists
-LEFT JOIN albums ON artists.name = albums.artist_id
+LEFT JOIN albums ON artists.id = albums.artist_id
 ORDER BY artist_name ASC, album_name ASC;
