@@ -3,5 +3,5 @@
 
 
 UPDATE albums
-SET name = 'Metallica'
-WHERE name = 'The Black Album';
+SET name = "Metallica"
+WHERE name = "The Black Album";

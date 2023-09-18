@@ -2,4 +2,4 @@
 
 
 DELETE FROM artists
-WHERE name = 'Justin Bieber';
+WHERE name = "Justin Bieber";
